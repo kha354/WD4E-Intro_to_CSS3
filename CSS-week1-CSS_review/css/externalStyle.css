@@ -1,36 +1,52 @@
+/* Body */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
+    margin: 0;
 }
 
+/* Header */
 header {
     background-color: #333;
+    color: white;
+    padding: 10px;
 }
 
+/* Navigation */
 nav {
     background-color: #555;
+    padding: 10px;
 }
 
+/* Main content */
 main {
     background-color: #f4f4f4;
     font-size: 18px;
+    padding: 20px;
 }
 
+/* Footer */
 footer {
     background-color: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
+/* List items */
 li {
     display: inline-block;
     width: 120px;
 }
 
+/* Heading */
 h1 {
     text-align: center;
     font-family: Georgia, serif;
-    color: black;
+    color: black; /* FIX contrast */
 }
 
+/* Paragraph */
 p {
     line-height: 1.6;
 }
