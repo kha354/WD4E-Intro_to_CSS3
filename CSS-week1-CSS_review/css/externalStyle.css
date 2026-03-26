@@ -1,10 +1,36 @@
-/* This stylesheet was created for external_style.html.
-It is possible to reuse this file as many times as you would like. */
-
-h1{
-    color: blue;
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
-p{
-    color: red
+header {
+    background-color: #333;
+}
+
+nav {
+    background-color: #555;
+}
+
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #222;
+}
+
+li {
+    display: inline-block;
+    width: 120px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: white;
+}
+
+p {
+    line-height: 1.6;
 }
